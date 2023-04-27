@@ -1,4 +1,4 @@
-/* Reset de margens e paddings */
+
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +6,6 @@ body {
     
 }
 
-/* Estilo do menu */
 .menu {
     display: flex;
     align-items: center;
@@ -48,26 +47,21 @@ body {
     margin-left: 20px;
 }
 
-/* Estilo do divisor */
 .divider {
     position: absolute;
     width: 1253px;
     height: 0px;
     left: 150px;
     top: 83px;
-    
     border: 1px solid #C9D6DF;
 }
 
 
-/* Estilo da imagem de fundo */
 .background-image {
     background-image: url('/img/banner.png');
     background-size: cover;
-    height: 100vh; /* Subtrai a altura do menu superior */
+    height: 100vh; 
 }
-
-/*Bloco 2 */
 
 .bloco2 {
     background-color:#52616B ;
@@ -78,43 +72,39 @@ body {
 
 .bloco-imagem1 {
     display: flex;
-    justify-content: center; /* Centralizar o item horizontalmente */
-    align-items: center; /* Centralizar o item verticalmente */
+    justify-content: center; 
+    align-items: center; 
 
 }
 
-
-/* Estilo do bloco das imagens 2 e 3 */
 .bloco-imagem2-3 {
     display: flex;
-    justify-content: center; /* Centralizar os itens horizontalmente */
-    margin-top: 17px; /* Espaçamento em relação ao bloco da imagem 1 */
+    justify-content: center; 
+    margin-top: 17px; 
     padding-left: 25px;
     padding-right: 5px;
 }
 
-/* Estilo das imagens 2 e 3 */
+
 .imagem2,
 .imagem3 {
     width: 590px;
     height: 341px;
-    margin-right: 20px; /* Espaçamento entre as imagens */
+    margin-right: 20px; 
 }
 
-/* Estilo das imagens 2 e 3 quando estão lado a lado */
 .bloco-imagem2-3 .imagem2,
 .bloco-imagem2-3 .imagem3 {
     display: flex;
     flex-direction: row;
 }
 
-/* Estilo do bloco3 com imagem de fundo, logo e texto à esquerda */
 .bloco3 {
-    background-image: url('/img/bmw-my-bmw-app-lp-cp-xxl\ 1.png'); /* Caminho para a imagem de fundo */
+    background-image: url('/img/bmw-my-bmw-app-lp-cp-xxl\ 1.png');
     background-size: cover;
-    height: 100vh; /* Subtrai a altura do menu superior */
+    height: 100vh; 
     display: flex;
-    padding: 20px; /* Espaçamento interno */
+    padding: 20px; 
 }
 
 
@@ -123,13 +113,12 @@ body {
     margin-top: 20px;
 }
 
-/* Estilo do texto no bloco3 */
 .bloco3 .texto {
     margin-top: 5px;
-    color: #ffffff; /* Cor do texto */
+    color: #ffffff; 
 }
 
-/* Rodapé */
+
 .rodape {
     background-color: #1E2022;
     display: flex;
@@ -140,14 +129,14 @@ body {
     align-items: center;
 }
 
-/* Títulos do rodapé */
+
 .rodape h2 {
     margin-bottom: 10px;
     font-size: 18px;
     color: #fff;
 }
 
-/* Lista de páginas */
+
 .paginas {
     list-style-type: none;
     margin: 0;
@@ -163,7 +152,6 @@ body {
     text-decoration: none;
 }
 
-/* Lista de redes sociais */
 .redes-sociais {
     list-style-type: none;
     display: flex;
@@ -181,8 +169,6 @@ body {
     height: auto;
 }
 
-
-
-h2 {
+.social1 .social2{
     color: #ffffff;
 }
