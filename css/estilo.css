@@ -58,7 +58,7 @@ body {
 
 
 .background-image {
-    background-image: url('/img/banner.png');
+    background-image: url('/imagens/banner.png');
     background-size: cover;
     height: 100vh; 
 }
@@ -100,7 +100,7 @@ body {
 }
 
 .bloco3 {
-    background-image: url('/img/bmw-my-bmw-app-lp-cp-xxl\ 1.png');
+    background-image: url('/imagens/bmw-my-bmw-app-lp-cp-xxl\ 1.png');
     background-size: cover;
     height: 100vh; 
     display: flex;
